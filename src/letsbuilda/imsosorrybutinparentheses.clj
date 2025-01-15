@@ -1,6 +1,6 @@
 (ns letsbuilda.imsosorrybutinparentheses)
 
-(defn foo
-  "I don't do a whole lot."
-  [x]
-  (prn x "Hello, World!"))
+(def regex-word-replace (re-pattern "(?<!w)[lr](?!w)"))
+
+(defn char-replace [text]
+  (clojure.string/replace text regex-word-replace "w"))
