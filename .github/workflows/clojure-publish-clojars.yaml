@@ -19,7 +19,9 @@ jobs:
         sudo ./linux-install.sh      
 
     - name: Run build
-      run: clojure -T:build deploy
+      run: |
+        clojure -T:build ci
+        clojure -T:build deploy
       env:
         CLOJARS_USERNAME: ${{ secrets.CLOJARS_USERNAME }}
         CLOJARS_PASSWORD: ${{ secrets.CLOJARS_PASSWORD }}
