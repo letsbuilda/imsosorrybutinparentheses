@@ -1,9 +1,9 @@
 {
   "features": {
-    "ghcr.io/devcontainers-extra/features/clojure-asdf:2": {
-      "version": "2.0.15",
-      "resolved": "ghcr.io/devcontainers-extra/features/clojure-asdf@sha256:7a05b69a53a55008a0da26a0219fe7683eaa73c1681b4d06268408cf0f88fad5",
-      "integrity": "sha256:7a05b69a53a55008a0da26a0219fe7683eaa73c1681b4d06268408cf0f88fad5"
+    "ghcr.io/devcontainers-extra/features/clojure-asdf:": {
+      "version": "2.0.16",
+      "resolved": "ghcr.io/devcontainers-extra/features/clojure-asdf@sha256:4977b0185a1817f4aadd89e5a66cd42801f547427a025b082ae20261d8b37e80",
+      "integrity": "sha256:4977b0185a1817f4aadd89e5a66cd42801f547427a025b082ae20261d8b37e80"
     }
   }
 }
